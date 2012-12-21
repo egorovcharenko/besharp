@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ambilwarna_cancel">Cancel</string>
+    <string name="ambilwarna_ok">OK</string>
+    <string name="hello">Hello World, besharpMainActivity!</string>
+    <string name="app_name">BeSharp</string>
+</resources>

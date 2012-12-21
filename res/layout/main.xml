@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_layout_tag_search_layout" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <TextView android:gravity="center" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Filtering by tag: " android:layout_weight="0.0" />
+        <TextView android:gravity="center" android:id="@id/filtered_tag_text" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:layout_weight="0.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/main_layout_search_layout" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:gravity="center" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Search:" android:layout_weight="0.0" />
+        <EditText android:id="@id/main_layout_search_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <Button android:id="@id/main_layout_cancel_search" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Close" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:id="@id/search_divider_line" android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <ru.humantouch.besharp.views.LinesListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
